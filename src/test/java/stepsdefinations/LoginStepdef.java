@@ -39,7 +39,7 @@ public class LoginStepdef extends BaseUtilities{
         Assert.assertEquals("Its not displayed", base.Driver.findElement(By.id("Initial")).isDisplayed(), true);
     }
 
-    @Given("^I navigate to the login page$")
+    @Given("I navigate to the login page")
     public void iNavigateToTheLoginPage() throws Throwable {
      //   base.scenarioDef.createNode(new GherkinKeyword("Given"), "I navigate to the login page");
         System.out.println("Navigate Login Page");
@@ -94,5 +94,7 @@ public class LoginStepdef extends BaseUtilities{
             password = passWord;
         }
     }
+    
+    
 
 }

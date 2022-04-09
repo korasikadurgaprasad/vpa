@@ -6,6 +6,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 public class BaseUtilities {
+	
 	public static WebDriver Driver;
 
 	public ExtentReports extent;
